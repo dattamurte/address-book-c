@@ -17,6 +17,7 @@ This project implements an Address Book system to manage contact details such as
 - File Handling
 - Pointers
 - Modular Programming
+- Makefile
 
 ## Files
 - main.c
@@ -26,9 +27,10 @@ This project implements an Address Book system to manage contact details such as
 - contact.h
 - file.h
 - populate.h
+- Makefile
 
-## Compile
-gcc main.c contact.c file.c populate.c -o addressbook
+## How to Compile
+Run the following command:
 
-## Run
-./addressbook
+```bash
+make
